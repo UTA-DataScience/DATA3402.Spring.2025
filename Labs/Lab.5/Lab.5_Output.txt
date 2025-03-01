@@ -1,0 +1,157 @@
+Notebook output is being captured... Run all cells to save outputs.
+
+0	0	0
+0	0	0
+0	0	0
+1	2	3
+4	5	6
+7	8	9
+Error: All rows must have the same length.
+1	2	3
+4	5	6
+7	8	9
+(3, 3)
+1	4	7
+2	5	8
+3	6	9
+4	5	6
+2
+5
+8
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+1	2
+4	5
+Error: Invalid block indices.
+3
+5.0	5.0	5.0
+5.0	5.0	5.0
+5.0	5.0	5.0
+0.0	0.0	0.0
+0.0	0.0	0.0
+0.0	0.0	0.0
+1.0	1.0	1.0
+1.0	1.0	1.0
+1.0	1.0	1.0
+1.0	0.0	0.0
+0.0	1.0	0.0
+0.0	0.0	1.0
+
+Matrix M:
+1	2
+3	4
+
+Matrix N:
+5	6
+7	8
+
+M * 3:
+3	6
+9	12
+
+M + N:
+6	8
+10	12
+
+M - N:
+-4	-4
+-4	-4
+
+Matrix P:
+1	2	3
+4	5	6
+
+Matrix Q:
+7	8
+9	10
+11	12
+
+P * Q (Matrix Multiplication):
+58	64
+139	154
+
+M ⊙ N (Element-wise Multiplication):
+5	12
+21	32
+
+M == N: False
+M == M: True
+
+Matrix M:
+1	2
+3	4
+
+Matrix N:
+5	6
+7	8
+
+M * 2:
+2	4
+6	8
+
+2 * M:
+2	4
+6	8
+
+M + N:
+6	8
+10	12
+
+M - N:
+-4	-4
+-4	-4
+
+Matrix P:
+1	2	3
+4	5	6
+
+Matrix Q:
+7	8
+9	10
+11	12
+
+P * Q (Matrix Multiplication):
+58	64
+139	154
+
+P @ Q (Using @ Operator):
+58	64
+139	154
+
+M == N: False
+M == M: True
+
+Associativity of Matrix Multiplication: (AB)C == A(BC)
+LHS (AB)C:
+ 12	10
+24	22
+RHS A(BC):
+ 12	10
+24	22
+Equality Check: True
+
+Distributive Property: A(B + C) == AB + AC
+LHS A(B + C):
+ 8	9
+18	19
+RHS AB + AC:
+ 8	9
+18	19
+Equality Check: True
+
+Non-Commutativity: AB ≠ BA
+AB:
+ 4	6
+10	12
+BA:
+ 2	4
+10	14
+Equality Check: False
+
+Identity Matrix Property: AI = A
+AI:
+ 1.0	2.0
+3.0	4.0
+A:
+ 1	2
+3	4
+Equality Check: True
