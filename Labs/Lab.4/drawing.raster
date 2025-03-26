@@ -1,0 +1,1 @@
+RasterDrawing(40, 20, bg_char=' ').add_shapes([Rectangle(10, 5, x=5, y=2, char='#'), Circle(5, x=20, y=10, char='@'), Triangle(7, 6, 8, x=10, y=15, char='*')])
